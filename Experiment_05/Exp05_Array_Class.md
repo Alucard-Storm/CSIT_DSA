@@ -18,13 +18,13 @@ Object-Oriented Programming (OOP) wraps data and behaviors together. A `class` d
 using namespace std;
 
 // create class
-class array
+class Arr
 {
     public:
 
 
     // Defining Integer Array
-    int array[10] = {2,4,6,8,10,12,14,16,18,20};
+    int arr[10] = {2,4,6,8,10,12,14,16,18,20};
     int i;
 
     // Display Array
@@ -32,7 +32,7 @@ class array
     {
         for(i=0; i<10; i++)
         {
-            cout<<" "<<array[i];
+            cout<<" "<<arr[i];
         }
 
     }
@@ -42,7 +42,7 @@ class array
     {
         for(i=0; i<10; i++)
         {
-            cin>>array[i];
+            cin>>arr[i];
         }
     }
 
@@ -58,7 +58,7 @@ class array
         cin>>val;
 
         // pos-1 because the array addressing starts from 0
-        array[pos-1]=val;
+        arr[pos-1]=val;
     }
 
 };

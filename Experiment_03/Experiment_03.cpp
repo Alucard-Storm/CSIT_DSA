@@ -9,7 +9,7 @@ Function input is being used to store elements in the array.
 using namespace std;
 
 // Declaring Array Globally so that it can be using in all the functions
-int array[10] = {2,4,6,8,10,12,14,16,18,20};
+int arr[10] = {2,4,6,8,10,12,14,16,18,20};
 int i;
 
 // Display Array
@@ -17,7 +17,7 @@ void display()
 {
     for(i=0; i<10; i++)
     {
-        cout<<" "<<array[i];
+        cout<<" "<<arr[i];
     }
 
 }
@@ -27,7 +27,7 @@ void input()
 {
     for(i=0; i<10; i++)
     {
-        cin>>array[i];
+        cin>>arr[i];
     }
 }
 
